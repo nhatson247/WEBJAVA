@@ -1,0 +1,186 @@
+.Gmail {
+  width: 600px;
+  position: relative;
+  font-size: 12px;
+  height: auto;
+  display: block;
+  margin-top: 11%;
+  margin-left: 40%;
+}
+
+.Gmail__send {
+  display: flex;
+  flex-direction: column;
+}
+
+.Gmail__send-title {
+  background: #f2f6fc;
+  width: 100%;
+  height: 35px;
+  padding: 0 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Gmail__send-title span {
+  font-size: 14px;
+  text-align: center;
+}
+
+.icon {
+  margin-right: 15px;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.title-icon {
+  padding-right: 10px;
+  padding-top: 10px;
+}
+
+.group-email {
+  background: #fff;
+  width: 100%;
+  height: 35px;
+  padding: 5px 15px 0 10px;
+  position: relative;
+}
+
+.group-email span {
+  color: #747775;
+  padding: 10px 0;
+  border-bottom: 1px solid #bbd0d7;
+}
+
+.input-gmail {
+  outline: none;
+  border: none;
+  padding-left: 10px;
+  width: 495px;
+}
+
+.mf {
+  width: 520px;
+}
+
+.h390 {
+  height: 390px;
+  width: 575px;
+}
+
+.active {
+  margin-left: 0;
+  width: 570px;
+  height: 350px;
+}
+
+.btn-center:hover {
+  background: #07409b;
+}
+
+.btn-center {
+  background: #0b57d0;
+  color: white;
+  font-size: 14px;
+  width: 60px;
+  height: 35px;
+  margin-bottom: 10px;
+  border-bottom-left-radius: 18px;
+  border-bottom-right-radius: 0;
+  border-top-left-radius: 18px;
+  border-top-right-radius: 0;
+  border-right: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 10px;
+}
+
+.btn-left {
+  text-align: center;
+}
+
+.btn-right:hover {
+  background: #07409b;
+}
+
+.btn-right {
+  background: #0b57d0;
+  color: white;
+  font-size: 14px;
+  width: 20px;
+  height: 35px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 18px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 18px;
+  padding: 0 10px;
+}
+
+.btn-right img {
+  width: 20px;
+  height: 20px;
+}
+
+.last-group-email {
+  display: flex;
+  align-items: center;
+  background: #fff;
+  cursor: pointer;
+ 
+}
+
+.icon-next {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.icon-next img {
+  width: 20px;
+  height: 20px;
+  transition: filter 0.3s;
+}
+
+.icon-next img:hover {
+  filter: grayscale(100%);
+  transform: scale(1.2);
+}
+* {
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+   
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    background: #37a0a5;
+    margin: auto;
+}
+.icon-next{
+    padding-left: 25px;
+    padding-bottom: 10px;
+    cursor: pointer;
+}
+.A{
+    padding-right: 10px;
+}
+.outline-icon{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.outline-icon div:hover{
+    color: gainsboro;
+}
+
+.icon-delete{
+    margin-left: 160px;
+    padding-right: 20px;
+}

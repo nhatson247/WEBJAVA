@@ -1,0 +1,27 @@
+@charset "ISO-8859-1";
+/* Mobile & tablet */
+@media (max-width: 1023px){
+
+    .app__content {
+        padding: 0px 5px 0px 5px;
+    }
+}
+
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1023px){
+    :root{
+        --header-height: 68px;
+        --navbar-height: 0;
+    }
+}
+
+/* Mobile */
+@media (max-width: 739px){
+    :root{
+        --header-height: 54px;
+        --navbar-height: 0;
+    }
+    .app__content {
+    padding: 0px 15px 0px 15px;
+	}
+}

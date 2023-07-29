@@ -1,0 +1,44 @@
+@charset "ISO-8859-1";
+.btn-group, .btn-group-vertical {
+    margin-left: 15px;
+}
+body {
+	margin: 0;
+
+}
+.input-quantity {
+	width: 60px;
+	text-align: center;
+}
+
+.input-form {
+	float: right;
+	margin-bottom: 15px;
+}
+
+
+.button-container {
+	display: flex;
+	gap: 10px;
+}
+img{
+	height: 150px;
+}
+
+.table {
+	width: 84%;
+}
+
+.btn-group-justified>.btn, .btn-group-justified>.btn-group {
+	float: right;
+	padding-right: 5px;
+	display: inline-table;
+}
+.small{
+width: 50px;
+text-align: center;
+}
+.mg-7{
+	margin-top: 70px;
+}
+
